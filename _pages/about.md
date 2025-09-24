@@ -5,6 +5,8 @@ permalink: /
 author_profile: true
 ---
 
+---
+
 I am a Ph.D. student in Resource Economics at the University of Massachusetts Amherst.
 
 My research mainly lies at the intersection of **industrial organization and applied microeconomics**, with a focus on how market structure and public policy shape firm behavior.
