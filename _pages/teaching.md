@@ -6,11 +6,13 @@ author_profile: true
 ---
 
 
-## Teaching Experience
+
 
 📌 *My teaching philosophy combines analytical rigor with applied examples.  
 I strive to make economics and finance concepts accessible and relevant,  
 helping students build both technical competence and real-world intuition.*
+
+## Teaching Experience
 
 ---
 
@@ -18,7 +20,21 @@ helping students build both technical competence and real-world intuition.*
 
 - **Res-Econ 323: Financial Analysis for Consumers and Firms**  
   *Fall 2024, Spring 2025*  
-  Designed and taught this upper-level undergraduate course covering consumer finance, firm financial analysis, interest rates, and investment decisions. Developed assignments, lectures, and exams to build both practical financial literacy and analytical skills.  
+  Designed and taught this upper-level undergraduate course covering consumer finance, firm financial analysis, interest rates, and investment decisions.  
+
+  **Teaching Evaluations (Spring 2025)**  
+  - **Overall teaching effectiveness**: 4.5 / 5.0 (above department and campus averages).  
+  - **Course quality**: 4.0 / 5.0, with 71% rating it as above average or one of the best.  
+  - **Preparation & clarity**: 100% agreement on effective preparation and use of time (mean 4.8).  
+  - **Student support**: Strong ratings for fairness (4.5) and interest in student learning (4.6).
+  - 📌 *Students consistently praised my ability to connect financial concepts to real-world issues, flexibility in teaching, and supportive learning environment.*  
+
+  *Selected comments:*  
+  - “Jing was awesome!”  
+  - “If more tenured professors approached class like Jing did, UMass education would be the best.”  
+  - “Weekly finance news discussions and stock market coverage made the course engaging.”  
+  - “The instructor created a relaxed, supportive learning environment.”  
+  - “Very helpful and understanding… genuinely cared for us.” 
 
 - **Res-Econ 213: Intermediate Statistics for Business and Economics**  
   *Summer 2023*  
@@ -39,7 +55,7 @@ helping students build both technical competence and real-world intuition.*
 
 - **Res-Econ 428: Managerial Economics** (*Spring 2021*)  
 - **Res-Econ 453: Public Policy in Private Markets** (*Spring 2021*)  
-- **Res-Econ 202: Price Theory** (*2018–2020, multiple terms*)  
+- **Res-Econ 202: Price Theory** (*Fall 2018, Spring 2019, Fall 2019, Spring 2020*)  
   Conducted discussion sessions and graded problem sets/exams.  
 
 ---
