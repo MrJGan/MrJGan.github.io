@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "About Me"
 permalink: /
 author_profile: true
 ---
@@ -51,19 +50,5 @@ Details are available on my [Teaching page](/teaching/).
 - **Econometrics and Quantitative Methods**: Panel data models, causal inference, treatment effects (DiD, IV, matching), time series, spatial econometrics.  
 - **Machine Learning and Data Science**: Supervised and unsupervised learning, clustering, natural language processing, text mining, predictive modeling.  
 - **Programming and Computational Tools**: R, Python, MATLAB, SQL, Stata, Git/GitHub, LaTeX. 
-
----
-
-## Curriculum Vitae
-
-📄 [Download my CV](/files/Jing_Gan_CV.pdf)
-
----
-
-## Contact
-
-- 📧 jinggan@umass.edu  
-- 📍 Amherst, MA  
-- 🔗 [Google Scholar](https://scholar.google.com/) | [GitHub](https://github.com/MrJGan) | [LinkedIn](https://linkedin.com/)  
 
 ---
