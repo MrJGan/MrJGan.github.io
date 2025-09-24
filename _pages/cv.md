@@ -5,9 +5,7 @@ permalink: /cv/
 author_profile: true
 ---
 
-## Curriculum Vitae
-
-📄 [Download my full CV here](/files/cv_new.pdf)
+📄 [Download my full CV](/files/cv_new.pdf)
 
 ---
 
