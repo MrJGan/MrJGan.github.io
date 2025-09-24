@@ -26,12 +26,7 @@ In addition to economics, I hold a **Master of Science in Computer Science (Geor
 - Empirically, I analyze the U.S. restaurant industry using data from **Yelp, TripAdvisor, and population density measures**, showing that higher-quality restaurants cluster more in competitive markets, while lower-quality restaurants occupy less dense areas.  
 - Results provide new insights into how consumer preferences and quality affect spatial distribution in imperfectly competitive industries.
 
-### Additional Research  
-- **Green Technology Innovation and U.S. Policy**: Studying the effects of the Inflation Reduction Act and related climate policies on firm-level green technology adoption, carbon emissions, and innovation.  
-- **Sustainable Finance**: Exploring how subsidies and public investment in renewable energy influence corporate R&D and long-run environmental outcomes.  
-- **Applied Microeconomics**: Broader interest in empirical industrial organization and how policy interventions reshape competitive dynamics.
-
-See more on my [Research page](/research/) and download my [Job Market Paper](/files/Chap1_Quality_and_Spatial_Competition.pdf).
+📄 *Job market paper available upon request.* 
 
 ---
 
