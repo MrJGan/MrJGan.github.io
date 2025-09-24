@@ -1,10 +1,9 @@
 ---
 layout: single
+title: "About Me"
 permalink: /
 author_profile: true
 ---
-
-## About Me
 
 I am a Ph.D. student in Resource Economics at the University of Massachusetts Amherst.
 
