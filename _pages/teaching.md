@@ -44,19 +44,14 @@ helping students build both technical competence and real-world intuition.*
 
 ### Teaching Assistant
 
+- **Res-Econ 313: Decision Analysis (Sections 01 & 02)** (*Fall 2025*)  
+- **Res-Econ 452: Industrial Organization** (*Fall 2025*)  
 - **Res-Econ 312: Introductory Econometrics** (*Spring 2024*)  
-  Led labs and office hours, guiding students through regression analysis, causal inference, and econometric applications.  
-
 - **Res-Econ 212: Statistics for Social Sciences** (*Fall 2023*)  
-  Taught both lecture and lab sections. Supported students in learning applied statistics for economics and social sciences.  
-
 - **Res-Econ 452: Industrial Organization** (*Fall 2019, Spring 2020*)  
-  Assisted with course delivery, grading, and held office hours on topics including market structure, competition policy, and firm behavior.  
-
 - **Res-Econ 428: Managerial Economics** (*Spring 2021*)  
 - **Res-Econ 453: Public Policy in Private Markets** (*Spring 2021*)  
 - **Res-Econ 202: Price Theory** (*Fall 2018, Spring 2019, Fall 2019, Spring 2020*)  
-  Conducted discussion sessions and graded problem sets/exams.  
 
 ---
 
