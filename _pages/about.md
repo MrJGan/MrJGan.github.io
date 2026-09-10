@@ -7,14 +7,13 @@ author_profile: true
 
 ---
 
-I am a Ph.D. student in Resource Economics at the University of Massachusetts Amherst.
+I am a Ph.D. candidate in Resource Economics at the University of Massachusetts Amherst. I successfully defended my dissertation, *Essays on Competition, Public Policy, and Firm Behavior*, in August 2026.
 
-My research mainly lies at the intersection of **industrial organization and applied microeconomics**, with a focus on how market structure and public policy shape firm behavior.
+My research lies at the intersection of applied microeconomics, industrial organization, and health economics and policy, with a particular focus on how market structure and public policy shape firm behavior, product offerings, and consumer outcomes.
 
-On the academic job market (2025–26), I combine rigorous economic modeling with applied data analysis, while also bringing substantial teaching experience as both a sole instructor and teaching assistant across a range of economics and finance courses.
+My dissertation combines spatial competition, large-scale restaurant menu data, and consumer review data to study restaurant location decisions, firm responses to the FDA's voluntary sodium reduction guidance, and the role of local competition in shaping policy outcomes.
 
-In addition to economics, I hold a **Master of Science in Computer Science (Georgia Institute of Technology, 2024)**, which strengthens my expertise in **data science, machine learning, and computational methods**. This interdisciplinary training allows me to integrate advanced quantitative techniques into empirical research in industrial organization and sustainable finance.
-
+In addition to economics, I hold an M.S. in Computer Science from the Georgia Institute of Technology. My interdisciplinary training supports my work with large-scale data, causal inference, structural modeling, spatial analysis, machine learning, and computational methods.
 ---
 
 ## Research
