@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: true
 ---
 
-📄 [Download my full CV](/files/cv_new.pdf)
+📄 [Download my full CV](/files/Jing_Gan_CV.pdf)
 
 ---
 
