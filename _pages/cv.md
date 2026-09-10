@@ -11,5 +11,5 @@ author_profile: true
 
 ### Embedded CV (Preview)
 
-<embed src="/files/cv_new.pdf" type="application/pdf" width="100%" height="800px" />
+<embed src="/files/Jing_Gan_CV.pdf" type="application/pdf" width="100%" height="800px" />
 
