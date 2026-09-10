@@ -13,33 +13,43 @@ My research lies at the intersection of applied microeconomics, industrial organ
 
 My dissertation combines spatial competition, large-scale restaurant menu data, and consumer review data to study restaurant location decisions, firm responses to the FDA's voluntary sodium reduction guidance, and the role of local competition in shaping policy outcomes.
 
-In addition to economics, I hold an M.S. in Computer Science from the Georgia Institute of Technology. My interdisciplinary training supports my work with large-scale data, causal inference, structural modeling, spatial analysis, machine learning, and computational methods.
+In addition to economics, I hold an M.S. in Computer Science from the Georgia Institute of Technology. This interdisciplinary training complements my research in applied economics and supports my work with large-scale data, computational methods, spatial analysis, and machine learning.
+
 ---
 
 ## Research
 
-### Job Market Paper  
-**“Quality and Spatial Competition: Evidence from U.S. Restaurants”**  
-- Extends the Hotelling spatial competition framework by introducing **consumer heterogeneity** and **restaurant quality differentiation**.  
-- Develops a model with four restaurants, accounting for both horizontal and vertical differentiation.  
-- Empirically, I analyze the U.S. restaurant industry using data from **Yelp, TripAdvisor, and population density measures**, showing that higher-quality restaurants cluster more in competitive markets, while lower-quality restaurants occupy less dense areas.  
-- Results provide new insights into how consumer preferences and quality affect spatial distribution in imperfectly competitive industries.
+### US Restaurants' Quality and Spatial Competition
+*Job Market Paper*
 
-📄 *Job market paper available upon request.* 
+This paper examines how quality differentiation, population concentration, and local market conditions shape restaurant location patterns across major U.S. cities. Using city-level, pairwise, and multilevel spatial analyses, I find systematic differences in the spatial behavior of high- and low-quality restaurants. In particular, high-quality restaurants tend to be more spatially dispersed within their own quality group, while low-quality restaurants tend to be more concentrated.
+
+### Reactions to FDA Sodium Reduction Guidance: Demand and Supply
+*Selected Paper, 2023 AAEA Annual Meeting*
+
+This paper evaluates restaurant responses to the FDA's voluntary sodium reduction guidance using a longitudinal panel of more than 400,000 chain-restaurant menu-item observations from 2016 to 2019. Using fixed-effects and event-study specifications, I find evidence of selective rather than broad-based reformulation, with stronger sodium reductions concentrated among limited-service restaurants and specific menu categories.
+
+### Local Competitive Density and Voluntary Policy Compliance
+
+This paper examines how local market structure conditions firm and consumer responses to voluntary nutrition policy. I combine longitudinal menu data, store-level Yelp reviews, and spatial measures of restaurant competition. The results show that chains with greater exposure to dense urban markets experienced larger sodium reductions, while consumer-response associations with reformulation were stronger in more competitive local markets, particularly among limited-service restaurants.
+
+### Work in Progress
+
+- Reactions to NYC's Calorie Labeling Rule for Food Service Establishments
+- Investigating the Role of Entry Barriers in Shaping Competition among Food Companies
 
 ---
 
 ## Teaching
 
-As sole instructor, I have taught:  
-- **Res-Econ 323: Financial Analysis for Consumers and Firms** (Fall 2024, Spring 2025)  
-- **Res-Econ 213: Intermediate Statistics for Business and Economics** (Summer 2023)  
+I have served as instructor of record for:
 
-My teaching evaluations demonstrate strong student engagement and effectiveness: for example, in Spring 2025, 91% of students rated my teaching as *“almost always”* or *“usually effective”* (Q10 mean = 4.5/5.0, above department and campus averages).  
+- **RES-ECON 323: Financial Analysis for Consumers and Firms**, University of Massachusetts Amherst (Fall 2024, Spring 2025)
+- **RES-ECON 213: Intermediate Statistics for Business and Economics**, University of Massachusetts Amherst (Summer 2023)
 
-I have also served as a teaching assistant for **Introductory Econometrics, Industrial Organization, Managerial Economics, Public Policy in Private Markets, Price Theory,** and **Statistics for Social Sciences**.
+I have also taught at Smith College and served as a teaching assistant for courses including Industrial Organization, Introductory Econometrics, Managerial Economics, Public Policy in Private Markets, Price Theory, Decision Analysis, and Statistics for Social Sciences.
 
-In recognition of my contributions, I received the **Vijay Bhagavan Teaching Assistant of Distinction Award (2022), awarded by the Department of Resource Economics**.  
+I received the **Vijay Bhagavan Teaching Assistant of Distinction Award** from the Department of Resource Economics at UMass Amherst in 2022.
 
 Details are available on my [Teaching page](/teaching/).
 
@@ -47,8 +57,8 @@ Details are available on my [Teaching page](/teaching/).
 
 ## Skills
 
-- **Econometrics and Quantitative Methods**: Panel data models, causal inference, treatment effects (DiD, IV, matching), time series, spatial econometrics.  
-- **Machine Learning and Data Science**: Supervised and unsupervised learning, clustering, natural language processing, text mining, predictive modeling.  
-- **Programming and Computational Tools**: R, Python, MATLAB, SQL, Stata, Git/GitHub, LaTeX. 
-
+- **Econometric & Quantitative Methods:** Panel data econometrics, causal inference, structural IO modeling, discrete choice models, multilevel/hierarchical models, spatial competition modeling, heterogeneity analysis
+- **Data & Computational Methods:** Large-scale data collection and cleaning, web scraping, record linkage, spatial analysis, text analysis, sentiment analysis, machine learning
+- **Programming & Software:** R, Python, Stata, SQL, MATLAB, Java, C++, LaTeX
+  
 ---
