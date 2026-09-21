@@ -7,13 +7,13 @@ author_profile: true
 
 ---
 
-I am a Ph.D. candidate in Resource Economics at the University of Massachusetts Amherst. I successfully defended my dissertation, *Essays on Competition, Public Policy, and Firm Behavior*, in August 2026.
+I am an applied economist who earned a Ph.D. in Resource Economics from the University of Massachusetts Amherst in 2026. My research focuses on how competition, market structure, and public policy shape firm behavior, product offerings, and consumer outcomes.
 
-My research lies at the intersection of applied microeconomics, industrial organization, and health economics and policy, with a particular focus on how market structure and public policy shape firm behavior, product offerings, and consumer outcomes.
+My work lies at the intersection of applied microeconomics, industrial organization, and health economics and policy. My dissertation, *Essays on Competition, Public Policy, and Firm Behavior*, combines spatial competition models, large-scale product- and firm-level data, and causal inference methods to study restaurant location decisions, firm responses to nutrition policy, and the role of local competition in shaping policy outcomes.
 
-My dissertation combines spatial competition, large-scale restaurant menu data, and consumer review data to study restaurant location decisions, firm responses to the FDA's voluntary sodium reduction guidance, and the role of local competition in shaping policy outcomes.
+I also hold an M.S. in Computer Science from the Georgia Institute of Technology. This interdisciplinary training supports my work with large-scale datasets, econometric and computational methods, spatial analysis, data visualization, and machine learning.
 
-In addition to economics, I hold an M.S. in Computer Science from the Georgia Institute of Technology. This interdisciplinary training complements my research in applied economics and supports my work with large-scale data, computational methods, spatial analysis, and machine learning.
+I am currently seeking opportunities in applied economics, economic consulting, policy research, and data-driven research roles.
 
 ---
 
