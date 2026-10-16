@@ -1,0 +1,186 @@
+/* Teaching page: intentionally separate from the approved homepage styles. */
+.teaching-page .site-header .current { color: var(--accent); font-weight: 700; }
+.teaching-page .teaching-hero { padding: 70px 0 65px; border-bottom: 1px solid var(--line); }
+.teaching-page .teaching-hero h1 { font: 400 clamp(52px, 6.1vw, 88px)/1.07 var(--serif); letter-spacing: -0.005em; margin: 23px 0 20px; }
+.teaching-page h1 em, .teaching-page h2 em { color: var(--accent); font-weight: 400; }
+.teaching-page .teaching-lede { max-width: 790px; color: #59625d; font-size: 16px; line-height: 1.75; margin: 0; }
+.teaching-page .teaching-section { padding-top: 51px; }
+.teaching-page .teaching-section-head { display: grid; grid-template-columns: minmax(140px, .62fr) minmax(0, 1.55fr) auto; align-items: baseline; gap: 16px; padding-bottom: 23px; }
+.teaching-page h2 { margin: 0; font: 400 clamp(35px, 3.6vw, 49px)/1.1 var(--serif); letter-spacing: 0.005em; }
+.teaching-page .section-count { font-size: 11px; letter-spacing: .1em; font-weight: 700; color: #77817b; text-align: right; }
+.teaching-page .course-list { border-top: 1px solid var(--line); }
+.teaching-page .course-row { display: grid; grid-template-columns: minmax(140px, .62fr) minmax(0, 1.55fr) 130px; gap: 16px; border-bottom: 1px solid var(--line); padding: 23px 0 26px; }
+.teaching-page .course-meta { display: flex; flex-direction: column; gap: 7px; }
+.teaching-page .course-term { font-size: 13px; color: var(--accent); font-weight: 600; }
+.teaching-page .course-school { font-size: 12px; color: #77817b; }
+.teaching-page .course-info { grid-column: 2 / -1; max-width: 730px; }
+.teaching-page .course-info h3 { font-size: 15px; line-height: 1.5; margin: 0 0 10px; color: var(--ink); }
+.teaching-page .course-info h3 span { font-weight: 500; margin-left: 5px; }
+.teaching-page .course-info p { color: #64716a; font-size: 14px; line-height: 1.7; margin: 0; }
+.teaching-page .teaching-evaluations { margin-top: 65px; background: #edf0ea; border-radius: 6px; padding: clamp(25px, 3.5vw, 47px); }
+.teaching-page .evaluation-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 10px 22px; }
+.teaching-page .evaluation-heading h2 { flex: 1 1 280px; }
+.teaching-page .evaluation-heading > p { margin: 0; color: #77817b; font-size: 12px; }
+.teaching-page .evaluation-body { display: grid; grid-template-columns: .96fr 1.04fr; gap: 38px; margin-top: 30px; padding-top: 25px; border-top: 1px solid #d2dad0; }
+.teaching-page .ratings { display: flex; flex-direction: column; justify-content: center; gap: 30px; }
+.teaching-page .featured-rating { display: flex; flex-direction: column; gap: 5px; }
+.teaching-page .featured-rating strong { color: var(--accent); font: 400 64px/1 var(--serif); }
+.teaching-page .featured-rating strong span { font-size: 30px; color: #788b7d; }
+.teaching-page .featured-rating > span { color: var(--ink); font-weight: 600; font-size: 14px; }
+.teaching-page .featured-rating small { font-size: 12px; color: #748078; }
+.teaching-page .secondary-ratings { display: grid; grid-template-columns: 1fr 1fr; gap: 19px; }
+.teaching-page .secondary-ratings > div { display: flex; flex-direction: column; gap: 7px; border-top: 1px solid #d2dad0; padding-top: 14px; }
+.teaching-page .secondary-ratings strong { font: 400 32px/1 var(--serif); color: var(--accent); }
+.teaching-page .secondary-ratings strong span { font-size: 17px; color: #788b7d; }
+.teaching-page .secondary-ratings > div > span { font-size: 14px; font-weight: 600; line-height: 1.6; color: var(--ink); }
+.teaching-page .student-comments { border-left: 1px solid #d2dad0; padding-left: 28px; display: flex; flex-direction: column; justify-content: center; }
+.teaching-page .student-comments p {
+  margin: 0;
+  padding: 16px 0;
+  color: #4c5b52;
+
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.5;
+  letter-spacing: 0.015em;
+}
+.teaching-page .student-comments p + p { border-top: 1px solid #d2dad0; }
+.teaching-page .ta-list { border-top: 1px solid var(--line); }
+.teaching-page .ta-row { display: grid; grid-template-columns: 145px minmax(0, 1.15fr) minmax(170px, .85fr); gap: 16px; align-items: baseline; border-bottom: 1px solid var(--line); padding: 16px 0; }
+.teaching-page .ta-row > span:first-child { font-size: 12px; color: var(--accent); font-weight: 600; }
+.teaching-page .ta-row strong { font-size: 14px; line-height: 1.5; font-weight: 600; }
+.teaching-page .ta-row > span:last-child { font-size: 12px; color: #77817b; line-height: 1.6; }
+.teaching-page .award-strip { background: #eae9e2; border-radius: 6px; padding: clamp(25px, 3.5vw, 43px); margin-top: 65px; display: grid; grid-template-columns: .95fr 1.05fr; gap: 30px; align-items: center; }
+.teaching-page .award-strip h2 { margin-top: 14px; }
+.teaching-page .award-description { display: flex; flex-direction: column; gap: 9px; }
+.teaching-page .award-description strong { font-size: 16px; line-height: 1.5; }
+.teaching-page .award-description span { font-size: 13px; color: #657068; }
+@media (max-width: 790px) {
+  .teaching-page .teaching-hero { padding: 55px 0 48px; }
+  .teaching-page .teaching-section-head { grid-template-columns: 1fr auto; }
+  .teaching-page .teaching-section-head h2 { grid-column: 1 / -1; grid-row: 2; }
+  .teaching-page .course-row { grid-template-columns: 160px 1fr; }
+  .teaching-page .course-info { grid-column: 2; }
+  .teaching-page .evaluation-body { grid-template-columns: 1fr; gap: 15px; }
+  .teaching-page .student-comments { border-left: none; border-top: 1px solid #d2dad0; padding: 12px 0 0; }
+  .teaching-page .ta-row { grid-template-columns: 130px minmax(0,1fr); }
+  .teaching-page .ta-row > span:last-child { grid-column: 2; }
+}
+@media (max-width: 550px) {
+  .teaching-page .teaching-hero { padding: 42px 0 43px; }
+  .teaching-page .teaching-hero h1 { font-size: clamp(45px, 11vw, 64px); }
+  .teaching-page .teaching-lede { font-size: 14px; }
+  .teaching-page .teaching-section { padding-top: 39px; }
+  .teaching-page .teaching-section-head { gap: 10px; }
+  .teaching-page .section-count { font-size: 10px; }
+  .teaching-page .course-row { grid-template-columns: 1fr; gap: 13px; }
+  .teaching-page .course-info { grid-column: 1; }
+  .teaching-page .course-meta { flex-direction: row; justify-content: space-between; flex-wrap: wrap; }
+  .teaching-page .course-info h3 span { display: block; margin-left: 0; }
+  .teaching-page .teaching-evaluations { margin-top: 45px; }
+  .teaching-page .evaluation-heading h2 { flex-basis: 100%; }
+  .teaching-page .secondary-ratings { gap: 10px; }
+  .teaching-page .student-comments p { font-size: 21px; }
+  .teaching-page .ta-row { grid-template-columns: 1fr; gap: 4px; }
+  .teaching-page .ta-row > span:last-child { grid-column: 1; }
+  .teaching-page .award-strip { grid-template-columns: 1fr; gap: 18px; margin-top: 45px; }
+}
+
+/* =========================================================
+   TEACHING LAYOUT REFINEMENT
+   Desktop grid alignment
+   ========================================================= */
+
+@media (min-width: 791px) {
+
+  /* Shared alignment for section headings and course rows */
+
+  .teaching-page .teaching-section-head,
+  .teaching-page .course-row,
+  .teaching-page .evaluation-heading {
+    grid-template-columns:
+      clamp(165px, 19vw, 220px)
+      minmax(0, 1fr)
+      130px;
+
+    column-gap: 16px;
+  }
+
+  /* Section headings */
+
+  .teaching-page .teaching-section-head {
+    display: grid;
+    align-items: baseline;
+  }
+
+  .teaching-page .teaching-section-head h2 {
+    grid-column: 2;
+  }
+
+  .teaching-page .section-count {
+    grid-column: 3;
+    text-align: right;
+  }
+
+  /* Course descriptions */
+
+  .teaching-page .course-info {
+    grid-column: 2 / -1;
+  }
+
+  /* Student feedback heading */
+
+  .teaching-page .evaluation-heading {
+    display: grid;
+    align-items: baseline;
+    gap: 16px;
+  }
+
+  .teaching-page .evaluation-heading h2 {
+    grid-column: 2;
+    min-width: 0;
+  }
+
+  .teaching-page .evaluation-heading > p {
+    grid-column: 3;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  /* Ensure labels and headings share the same baseline */
+
+  .teaching-page .teaching-section-head > .section-index,
+  .teaching-page .evaluation-heading > .section-index {
+    align-self: baseline;
+  }
+
+
+/* Teaching Assistant: align course names with section heading */
+
+.teaching-page .ta-row {
+  grid-template-columns:
+    clamp(165px, 19vw, 220px)
+    minmax(0, 1fr)
+    minmax(130px, 220px);
+
+  column-gap: 16px;
+  align-items: center;
+}
+
+.teaching-page .ta-row > span:first-child {
+  grid-column: 1;
+}
+
+.teaching-page .ta-row strong {
+  grid-column: 2;
+}
+
+.teaching-page .ta-row > span:last-child {
+  grid-column: 3;
+}
+
+
+}
+

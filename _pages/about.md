@@ -1,64 +1,91 @@
 ---
-layout: single
-title: "About Me"
+layout: portfolio-home
 permalink: /
-author_profile: true
 ---
+<div class="site-shell">
+  <header class="site-header">
+    <a class="wordmark" href="/" aria-label="Jing Gan home">JING GAN<span class="mark-dot">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="/teaching/">Teaching</a>
+      <a href="/cv/">CV</a>
+    </nav>
+  </header>
 
----
+  <main id="main-content">
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-main">
+        <p class="eyebrow"><span class="status-line"></span> APPLIED ECONOMIST <span class="eyebrow-slash">/</span> QUANTITATIVE RESEARCHER</p>
+        <h1 id="intro-title">Researching markets,<br><em>policy</em> &amp; firm behavior.</h1>
+        <p class="intro-description">I'm Jing Gan, an applied economist with a Ph.D. in Resource Economics from UMass Amherst and an M.S. in Computer Science from Georgia Tech. I study how competition and public policy shape firms, markets, and consumer outcomes.</p>
+      </div>
+      <div class="intro-side">
+        <img class="profile-portrait" src="{{ '/assets/images/jing-gan-portrait.jpg' | relative_url }}" alt="Portrait of Jing Gan" width="360" height="450" decoding="async" fetchpriority="high">
+        <div class="intro-meta">
+        <span class="tiny-label">RESEARCH AREAS</span>
 
-I am an applied economist who earned a Ph.D. in Resource Economics from the University of Massachusetts Amherst in 2026. My research focuses on how competition, market structure, and public policy shape firm behavior, product offerings, and consumer outcomes.
+        <p>
+          Applied Microeconomics<br>
+          Industrial Organization<br>
+          Health Economics &amp; Policy
+        </p>
 
-My work lies at the intersection of applied microeconomics, industrial organization, and health economics and policy. My dissertation, *Essays on Competition, Public Policy, and Firm Behavior*, combines spatial competition models, large-scale product- and firm-level data, and causal inference methods to study restaurant location decisions, firm responses to nutrition policy, and the role of local competition in shaping policy outcomes.
+        <span class="tiny-label side-bottom">
+          PhD · September 2026
+        </span>
+        </div>
+      </div>
 
-I also hold an M.S. in Computer Science from the Georgia Institute of Technology. This interdisciplinary training supports my work with large-scale datasets, econometric and computational methods, spatial analysis, data visualization, and machine learning.
+    </section>
 
-I am currently seeking opportunities in applied economics, economic consulting, policy research, and data-driven research roles.
+    <section class="dashboard" aria-label="Research, methods, and teaching overview">
+      <div class="research-panel" id="research">
+        <div class="panel-top"><span class="section-index">01 / RESEARCH</span><span class="panel-marker">SELECTED WORK</span></div>
+        <h2>Research</h2>
+        <p class="section-intro">Spatial competition, nutrition policy, and firm behavior.</p>
+        <div class="research-list">
+          <details class="research-item"><summary><span class="research-number">01</span><span class="research-title">US Restaurants' Quality and Spatial Competition<small>Job Market Paper · Spatial Industrial Organization</small></span><span class="research-action" aria-hidden="true">
+  <span class="action-closed">VIEW</span>
+  <span class="action-open">CLOSE</span>
+  <span class="research-arrow">→</span>
+</span></summary><div class="research-detail">This paper examines how quality differentiation, population concentration, and local market conditions shape restaurant location patterns across major U.S. cities. High-quality restaurants tend to be more spatially dispersed within their own quality group, while low-quality restaurants tend to be more concentrated.</div></details>
+          <details class="research-item"><summary><span class="research-number">02</span><span class="research-title">Reactions to FDA Sodium Reduction Guidance: Demand and Supply<small>Selected Paper · 2023 AAEA Annual Meeting</small></span><span class="research-action" aria-hidden="true">
+  <span class="action-closed">VIEW</span>
+  <span class="action-open">CLOSE</span>
+  <span class="research-arrow">→</span>
+</span></summary><div class="research-detail">Using more than 400,000 chain-restaurant menu-item observations from 2016 to 2019, this paper evaluates responses to voluntary sodium reduction guidance. Fixed-effects and event-study analyses show selective reformulation, especially among limited-service restaurants and certain menu categories.</div></details>
+          <details class="research-item"><summary><span class="research-number">03</span><span class="research-title">Local Competitive Density and Voluntary Policy Compliance<small>Health Economics · Local Market Competition</small></span><span class="research-action" aria-hidden="true">
+  <span class="action-closed">VIEW</span>
+  <span class="action-open">CLOSE</span>
+  <span class="research-arrow">→</span>
+</span></summary><div class="research-detail">Combining longitudinal menu data, store-level Yelp reviews, and spatial competition measures, this paper finds larger sodium reductions among chains more exposed to dense urban markets and stronger consumer-response associations in more competitive markets.</div></details>
+        </div>
+        <div class="working-note">
+          <span class="note-title">WORK IN PROGRESS</span>
+          
+          <p>NYC Calorie Labeling Rule</p>
+          <p>Entry Barriers in Food Industry Competition</p>
+        </div>
+      </div>
 
----
-
-## Research
-
-### US Restaurants' Quality and Spatial Competition
-*Job Market Paper*
-
-This paper examines how quality differentiation, population concentration, and local market conditions shape restaurant location patterns across major U.S. cities. Using city-level, pairwise, and multilevel spatial analyses, I find systematic differences in the spatial behavior of high- and low-quality restaurants. In particular, high-quality restaurants tend to be more spatially dispersed within their own quality group, while low-quality restaurants tend to be more concentrated.
-
-### Reactions to FDA Sodium Reduction Guidance: Demand and Supply
-*Selected Paper, 2023 AAEA Annual Meeting*
-
-This paper evaluates restaurant responses to the FDA's voluntary sodium reduction guidance using a longitudinal panel of more than 400,000 chain-restaurant menu-item observations from 2016 to 2019. Using fixed-effects and event-study specifications, I find evidence of selective rather than broad-based reformulation, with stronger sodium reductions concentrated among limited-service restaurants and specific menu categories.
-
-### Local Competitive Density and Voluntary Policy Compliance
-
-This paper examines how local market structure conditions firm and consumer responses to voluntary nutrition policy. I combine longitudinal menu data, store-level Yelp reviews, and spatial measures of restaurant competition. The results show that chains with greater exposure to dense urban markets experienced larger sodium reductions, while consumer-response associations with reformulation were stronger in more competitive local markets, particularly among limited-service restaurants.
-
-### Work in Progress
-
-- Reactions to NYC's Calorie Labeling Rule for Food Service Establishments
-- Investigating the Role of Entry Barriers in Shaping Competition among Food Companies
-
----
-
-## Teaching
-
-I have served as instructor of record for:
-
-- **RES-ECON 323: Financial Analysis for Consumers and Firms**, University of Massachusetts Amherst (Fall 2024, Spring 2025)
-- **RES-ECON 213: Intermediate Statistics for Business and Economics**, University of Massachusetts Amherst (Summer 2023)
-
-I have also taught at Smith College and served as a teaching assistant for courses including Industrial Organization, Introductory Econometrics, Managerial Economics, Public Policy in Private Markets, Price Theory, Decision Analysis, and Statistics for Social Sciences.
-
-I received the **Vijay Bhagavan Teaching Assistant of Distinction Award** from the Department of Resource Economics at UMass Amherst in 2022.
-
-Details are available on my [Teaching page](/teaching/).
-
----
-
-## Skills
-
-- **Econometric & Quantitative Methods:** Panel data econometrics, causal inference, structural IO modeling, discrete choice models, multilevel/hierarchical models, spatial competition modeling, heterogeneity analysis
-- **Data & Computational Methods:** Large-scale data collection and cleaning, web scraping, record linkage, spatial analysis, text analysis, sentiment analysis, machine learning
-- **Programming & Software:** R, Python, Stata, SQL, MATLAB, Java, C++, LaTeX
-  
----
+      <div class="side-panels">
+        <section class="expertise-panel" id="expertise" aria-labelledby="expertise-title">
+          <div class="panel-top"><span class="section-index">02 / METHODS &amp; TOOLS</span></div>
+          <h2 id="expertise-title">A quantitative<br><em>toolkit</em></h2>
+          <div class="skill-block"><span class="tiny-label">ECONOMETRICS</span><p>Causal inference, panel data, structural IO, discrete choice, spatial &amp; multilevel modeling</p></div>
+          <div class="skill-block"><span class="tiny-label">COMPUTATIONAL METHODS</span><p>Data collection, record linkage, spatial &amp; text analysis, machine learning</p></div>
+          <div class="skill-block"><span class="tiny-label">PROGRAMMING</span><p>Python <span>·</span> R <span>·</span> Stata <span>·</span> SQL <span>·</span> MATLAB <span>·</span> Java <span>·</span> C++ <span>·</span> LaTeX</p></div>
+        </section>
+        <a href="/teaching/" class="teaching-panel" aria-labelledby="teaching-title"><div class="panel-top">
+  <span class="section-index">03 / TEACHING</span>
+  <span class="teaching-top-link">
+    VIEW TEACHING <span aria-hidden="true">↗</span>
+  </span>
+</div><h2 id="teaching-title">Teaching &amp;<br><em>mentorship</em></h2><p class="teaching-experience">
+  <span>Instructor of Record · UMass Amherst</span>
+  <span>Substitute Instructor · Smith College</span>
+</p><div class="teaching-bottom"><span>Vijay Bhagavan Teaching Assistant of Distinction Award · 2022</span></div></a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>© {{ 'now' | date: '%Y' }} JING GAN</span><div><a href="mailto:jinggan@umass.edu">Email ↗</a><a href="/cv/">Curriculum Vitae ↗</a></div></footer>
+</div>
