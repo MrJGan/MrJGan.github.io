@@ -1,0 +1,890 @@
+
+/* =========================================================
+   JING GAN — EDITORIAL PORTFOLIO
+   Main stylesheet
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   01. DESIGN TOKENS
+   --------------------------------------------------------- */
+
+:root {
+  --bg: #f8f7f4;
+  --ink: #222b27;
+  --muted: #66716b;
+  --accent: #375d54;
+  --line: #dce1da;
+
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'DM Sans', Arial, sans-serif;
+}
+
+
+/* ---------------------------------------------------------
+   02. GLOBAL STYLES
+   --------------------------------------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
+}
+
+
+/* Accessibility: skip navigation */
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  padding: 12px;
+  background: white;
+  z-index: 20;
+}
+
+.skip-link:focus {
+  left: 12px;
+}
+
+
+/* ---------------------------------------------------------
+   03. SITE CONTAINER
+   --------------------------------------------------------- */
+
+.site-shell {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 clamp(22px, 5.4vw, 78px);
+}
+
+
+/* ---------------------------------------------------------
+   04. HEADER & NAVIGATION
+   --------------------------------------------------------- */
+
+.site-header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+}
+
+.wordmark {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.06em;
+}
+
+.mark-dot {
+  color: var(--accent);
+  font-size: 23px;
+}
+
+.site-header nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 3vw, 39px);
+  font-size: 13px;
+  color: #54605a;
+}
+
+.site-header nav a {
+  transition: color 0.2s;
+}
+
+.site-header nav a:hover,
+.site-footer a:hover {
+  color: var(--accent);
+}
+
+
+
+/* ---------------------------------------------------------
+   05. HERO / INTRODUCTION
+   --------------------------------------------------------- */
+
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 4fr) minmax(175px, 1fr);
+  gap: 50px;
+  padding:
+    clamp(55px, 7vw, 94px)
+    0
+    clamp(20px, calc(6vw - 32px), 42px);
+  align-items: start;
+}
+
+
+/* Eyebrow labels */
+
+.eyebrow,
+.tiny-label,
+.section-index,
+.panel-marker,
+.note-title {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+}
+
+.eyebrow {
+  color: var(--accent);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.status-line {
+  width: 23px;
+  height: 1px;
+  background: var(--accent);
+}
+
+.eyebrow-slash {
+  color: #a8b1aa;
+}
+
+
+/* Hero heading */
+
+.intro h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -0.005em;
+  font-size: clamp(52px, 6.3vw, 93px);
+  margin: 25px 0 22px;
+}
+
+.intro h1 em,
+.side-panels h2 em {
+  font-weight: 400;
+  color: var(--accent);
+}
+
+
+/* Hero description */
+
+.intro-description {
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #59625d;
+  margin: 48px 0 0;
+}
+
+
+/* Hero links removed: primary navigation provides access */
+
+
+/* Hero sidebar */
+
+.intro-side {
+  align-self: start;
+  margin-top: 46px; /* Approximate alignment with Hero heading's top edge */
+  min-width: 0;
+}
+
+.profile-portrait {
+  display: block;
+  width: min(100%, 185px);
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 3px;
+}
+
+.intro-meta {
+  margin-top: 22px;
+  padding-left: 18px;
+  border-left: 1px solid var(--line);
+}
+
+.tiny-label {
+  color: #77817b;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+}
+
+.intro-side p {
+  font-size: 14px;
+  line-height: 1.85;
+  margin: 12px 0 28px;
+  color: #535c56;
+}
+
+.side-bottom {
+  color: var(--accent);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+
+/* ---------------------------------------------------------
+   06. BENTO DASHBOARD
+   --------------------------------------------------------- */
+
+.dashboard {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+}
+
+
+/* Shared panel styles */
+
+.research-panel,
+.expertise-panel,
+.teaching-panel {
+  border-radius: 6px;
+  padding: clamp(23px, 3vw, 38px);
+}
+
+.panel-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-index {
+  color: #68756c;
+}
+
+.panel-marker {
+  color: #a0aaa3;
+  font-size: 9px;
+}
+
+
+/* ---------------------------------------------------------
+   07. RESEARCH PANEL
+   --------------------------------------------------------- */
+
+.research-panel {
+  background: #fff;
+  border: 1px solid #e7e8e3;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+
+/* Section title */
+
+.research-panel h2 {
+  font-family: var(--serif);
+  font-size: clamp(37px, 4vw, 56px);
+  line-height: 1.08;
+  letter-spacing: 0.005em;
+  margin: 29px 0 11px;
+  font-weight: 400;
+}
+
+.serif-accent {
+  color: var(--accent);
+}
+
+
+/* Research introduction
+   UPDATED: wider text area to prevent early wrapping
+*/
+
+.section-intro {
+  max-width: 100%;
+  line-height: 1.7;
+  color: #707973;
+  font-size: 14px;
+  margin: 0 0 21px;
+}
+
+
+/* Research list */
+
+.research-list {
+  border-top: 1px solid var(--line);
+}
+
+.research-item {
+  border-bottom: 1px solid var(--line);
+}
+
+
+/* Research item header */
+
+.research-item summary {
+  display: grid;
+  grid-template-columns: 25px minmax(0, 1fr) auto;
+  gap: 9px;
+  align-items: start;
+  cursor: pointer;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.research-item summary::-webkit-details-marker {
+  display: none;
+}
+
+
+/* Research numbering */
+
+.research-number {
+  font-size: 11px;
+  color: #94a29a;
+  margin-top: 4px;
+}
+
+
+/* Research titles */
+
+.research-title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  max-width: none;
+}
+
+.research-title small {
+  display: block;
+  font-size: 12px;
+  line-height: 1.65;
+  color: #8b958f;
+  font-weight: 400;
+  margin-top: 7px;
+}
+
+
+/* Research accordion arrows
+   UPDATED: right arrow rotates downward when expanded
+*/
+
+
+/* Research action labels */
+
+.research-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 7px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  padding-top: 2px;
+}
+
+.action-open {
+  display: none;
+}
+
+.research-item[open] .action-closed {
+  display: none;
+}
+
+.research-item[open] .action-open {
+  display: inline;
+}
+
+/* Research arrow */
+
+
+/* Research action — consistent with Teaching top link */
+
+.research-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  padding-top: 2px;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+/* Show the appropriate action label */
+
+.action-open {
+  display: none;
+}
+
+.research-item[open] .action-closed {
+  display: none;
+}
+
+.research-item[open] .action-open {
+  display: inline;
+}
+
+/* Arrow rotation */
+
+.research-arrow {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
+  transform-origin: center;
+  transition: transform 0.2s ease;
+}
+
+.research-item[open] .research-arrow {
+  transform: rotate(90deg);
+}
+
+/* Hover feedback */
+
+.research-item summary:hover .research-action {
+  color: #223f37;
+}
+
+
+/* Hover feedback */
+
+.research-item summary:hover .research-action {
+  color: #223f37;
+}
+
+
+
+/* Expanded research description */
+
+.research-detail {
+  margin: 0 19px 19px 34px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #64716a;
+}
+
+
+/* Work in progress */
+
+.working-note {
+  margin-top: 26px;
+  padding-top: 0;
+}
+
+.note-title {
+  color: var(--accent);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+}
+
+.working-note p {
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: #707973;
+  line-height: 1.7;
+}
+
+.working-note p + p {
+  margin-top: 5px;
+}
+
+
+/* ---------------------------------------------------------
+   08. SIDE PANELS
+   --------------------------------------------------------- */
+
+.side-panels {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+
+/* Shared side panel headings */
+
+.side-panels h2 {
+  font-family: var(--serif);
+  font-size: clamp(34px, 3.4vw, 47px);
+  font-weight: 400;
+  line-height: 1.08;
+  margin: 22px 0 24px;
+  letter-spacing: 0.005em;
+}
+
+.corner-mark {
+  font-size: 19px;
+  color: var(--accent);
+  line-height: 1;
+}
+
+
+/* ---------------------------------------------------------
+   09. METHODS & TOOLS PANEL
+   --------------------------------------------------------- */
+
+.expertise-panel {
+  background: #edf0ea;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-block {
+  border-top: 1px solid #d8dfd5;
+  padding: 13px 0 9px;
+}
+
+.skill-block p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #535d57;
+  margin: 7px 0 0;
+}
+
+.skill-block p span {
+  color: #91a097;
+}
+
+
+/* ---------------------------------------------------------
+   10. TEACHING PANEL
+   --------------------------------------------------------- */
+
+/* Teaching top navigation label */
+
+.teaching-top-link {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.teaching-top-link span {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.teaching-panel:hover .teaching-top-link span {
+  transform: translate(3px, -3px);
+}
+
+
+.teaching-panel {
+  background: #eae9e2;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.25s, transform 0.25s;
+}
+
+.teaching-panel:hover {
+  background: #e4e6dc;
+  transform: translateY(-2px);
+}
+
+.teaching-panel {
+  cursor: pointer;
+}
+
+.teaching-panel h2 {
+  margin: 22px 0 24px;
+}
+
+.teaching-panel > p {
+  font-size: 14px;
+  color: #657068;
+  line-height: 1.7;
+  margin: 0;
+  max-width: none;
+}
+
+/* Teaching experience — two separate lines */
+
+.teaching-experience span {
+  display: block;
+}
+
+.teaching-experience span + span {
+  margin-top: 5px;
+}
+
+/* Teaching footer */
+
+.teaching-bottom {
+  margin-top: 20px;
+  padding-top: 0;
+  display: block;
+}
+
+.teaching-bottom > span:first-child {
+  display: block;
+  max-width: none;
+  font-size: 14px;
+  color: #707a71;
+  line-height: 1.6;
+}
+
+/* ---------------------------------------------------------
+   11. FOOTER
+   --------------------------------------------------------- */
+
+.site-footer {
+  min-height: 110px;
+  margin-top: 50px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: #77817b;
+}
+
+.site-footer div {
+  display: flex;
+  gap: 25px;
+}
+
+.site-footer a {
+  transition: color 0.2s;
+}
+
+
+/* =========================================================
+   RESPONSIVE DESIGN
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   12. TABLET — 790px and below
+   --------------------------------------------------------- */
+
+@media (max-width: 790px) {
+
+  .site-header {
+    height: 76px;
+  }
+
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 62px 0 48px;
+  }
+
+  .intro-side {
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 110px minmax(0, 1fr);
+    gap: 20px;
+    border-top: 1px solid var(--line);
+    padding-top: 20px;
+  }
+
+  .profile-portrait {
+    width: 110px;
+  }
+
+  .intro-meta {
+    margin-top: 0;
+    padding-left: 15px;
+  }
+
+  .intro-side p {
+    margin: 9px 0 12px;
+  }
+
+  .side-bottom {
+    display: none;
+  }
+
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .side-panels {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+
+}
+
+
+/* ---------------------------------------------------------
+   13. MOBILE — 550px and below
+   --------------------------------------------------------- */
+
+@media (max-width: 550px) {
+
+
+/* Mobile eyebrow — balanced slash spacing */
+
+
+/* Mobile eyebrow — balanced two-line layout */
+
+.eyebrow {
+  display: grid;
+  grid-template-columns: 23px minmax(0, 1fr) 12px minmax(0, 1.35fr);
+  column-gap: 9px;
+  align-items: center;
+  justify-content: start;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.10em;
+}
+
+.status-line {
+  width: 23px;
+  height: 1px;
+  margin: 0;
+}
+
+.eyebrow-slash {
+  text-align: center;
+  margin: 0;
+}
+
+
+
+  .site-header nav {
+    gap: 14px;
+  }
+
+  .site-header nav a {
+    font-size: 11px;
+  }
+
+  .site-header nav a[href="#expertise"] {
+    display: none;
+  }
+
+  .intro {
+    padding: 45px 0 38px;
+  }
+
+  .intro h1 {
+    font-size: clamp(46px, 11vw, 68px);
+    margin: 17px 0;
+  }
+
+  .intro-description {
+    font-size: 13px;
+  }
+
+  .intro-side {
+    display: grid;
+    grid-template-columns: 92px minmax(0, 1fr);
+    gap: 16px;
+    padding-top: 17px;
+  }
+
+  .profile-portrait {
+    width: 92px;
+  }
+
+  .intro-meta {
+    padding-left: 13px;
+  }
+
+  .intro-side p {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .intro-side .tiny-label {
+    font-size: 10px;
+  }
+
+  .side-bottom {
+    display: block;
+    font-size: 10px;
+    white-space: normal;
+  }
+
+  .side-panels {
+    grid-template-columns: 1fr;
+  }
+
+  .side-panels h2 {
+    font-size: 38px;
+  }
+
+  .research-panel,
+  .expertise-panel,
+  .teaching-panel {
+    padding: 25px;
+  }
+
+  .site-footer {
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .site-footer div {
+    gap: 17px;
+    flex-wrap: wrap;
+  }
+
+  .research-item summary {
+    padding: 17px 0;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   14. ACCESSIBILITY — REDUCED MOTION
+   --------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+
+}
+
+
+/* Editorial section labels */
+.eyebrow, .section-index, .panel-marker, .note-title { font-size: 11px; }
+
+/* Align hero description width with Research panel */
+
+@media (min-width: 1100px) {
+  .intro-description {
+    width: 60vw;
+    max-width: 760px;
+  }
+}
