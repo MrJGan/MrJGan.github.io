@@ -23,15 +23,37 @@ description: "An interactive research project by Jing Gan on population density 
     <div class="project-finding"><strong>14.3–14.6%</strong><p>Fitted decline in population density per additional mile across City Hall, the employment-weighted centroid, and the strongest employment peak in the 20-mile sample.</p></div>
     <div class="project-finding"><strong>19.4% → 14.6%</strong><p>Fitted decline per mile using City Hall, when the sample radius expands from 10 to 20 miles.</p></div>
   </div>
+  <div class="project-explanation">
+    <h3>Why compare three centers?</h3>
+    <p>City Hall provides a recognizable administrative benchmark. The employment-weighted centroid is the average location of primary jobs within the leading candidate area; it may fall between several employment concentrations. The strongest employment peak marks the highest smoothed job density within that area and serves as the main reference point. It is identified from employment data before estimating the population gradient. Comparing the three centers shows how much the population findings depend on the choice of reference point.</p>
+  </div>
   <figure>
     <img class="project-figure" src="{{ '/assets/projects/boston/density-radius.svg' | relative_url }}" alt="Across 10-, 15-, and 20-mile study radii, the fitted decline becomes smaller; the three reference centers remain close." width="960" height="480">
     <figcaption>Each point is a separate regression of ln(population density) on distance, using tracts selected by centroid distance from City Hall. Reference-center locations are held fixed. The chart shows fitted rates of decline, not density levels or exact annular averages.</figcaption>
   </figure>
+  <div class="project-explanation">
+    <h3>How to read the gradient</h3>
+    <p>In the underlying regression, each observation is a census tract. The model relates the logarithm of population density to straight-line distance, giving each positive-density tract equal weight. A fitted decline of 14.6% per mile summarizes the model’s proportional change in density with distance; it does not mean that every neighborhood loses that share of its residents. The 10- and 20-mile estimates use different samples, so their difference describes how the fitted pattern changes with study extent.</p>
+  </div>
 </section>
 <section class="project-section" aria-labelledby="employment-title">
   <h2 id="employment-title">A stable reference point does not imply a unique boundary</h2>
   <p>Employment data define a reference peak independently of the population regression. A second set of experiments holds cells at 250 meters and changes the smoothing bandwidth. The area common to three tested bandwidths contains 653,618 primary jobs across 28.375 km² of grid area, including water.</p>
-  <p>Professional services, health care, education, and finance all contribute to this employment cluster. Agreement across specifications provides sensitivity evidence; it does not establish statistical confidence or an official central business district. In this experiment, the intersection coincides with the smallest-bandwidth candidate.</p>
+  <div class="project-explanation">
+    <h3>An employment core with mixed functions</h3>
+    <p>The four largest sectors span professional services, health care, education, and finance. This mix supports interpreting the area as a broad employment core.</p>
+    <table class="project-industry-table">
+      <caption>Four largest sectors in the common employment area · LODES 2023</caption>
+      <thead><tr><th scope="col">Industry sector</th><th scope="col">Share of primary jobs</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Professional, scientific, and technical services</th><td>22.6%</td></tr>
+        <tr><th scope="row">Health care and social assistance</th><td>17.2%</td></tr>
+        <tr><th scope="row">Educational services</th><td>12.1%</td></tr>
+        <tr><th scope="row">Finance and insurance</th><td>10.4%</td></tr>
+      </tbody>
+    </table>
+    <p>PLAN: Downtown offers a planning reference whose smaller boundary serves a different purpose. Agreement across the three smoothing settings describes robustness to those tested choices, rather than a probability that the boundary is correct. In this experiment, the intersection coincides with the smallest-bandwidth candidate. Industry selection in the explorer changes the displayed jobs or shares while holding the employment boundaries fixed.</p>
+  </div>
 </section>
 <section class="project-section" aria-labelledby="methods-title">
   <h2 id="methods-title">Data and analytical approach</h2>

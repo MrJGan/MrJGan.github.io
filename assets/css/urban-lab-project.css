@@ -21,6 +21,15 @@
 .project-section li { margin:10px 0; }
 .project-section figure { margin:26px 0 0; }
 .project-section figcaption { font-size:12px; color:var(--muted); line-height:1.7; max-width:820px; margin-top:12px; }
+.project-explanation { margin-top:28px; }
+.project-explanation h3 { font-size:21px; font-weight:600; line-height:1.35; margin:0 0 12px; }
+.project-industry-table { width:100%; max-width:820px; border-collapse:collapse; margin:20px 0; font-size:14px; line-height:1.6; }
+.project-industry-table caption { text-align:left; font-size:12px; color:var(--muted); margin-bottom:10px; }
+.project-industry-table th,.project-industry-table td { padding:12px 14px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+.project-industry-table thead { background:#efefea; }
+.project-industry-table tbody th { font-weight:400; }
+.project-industry-table th:last-child,.project-industry-table td:last-child { text-align:right; font-variant-numeric:tabular-nums; }
+.project-industry-table td { white-space:nowrap; }
 .project-findings { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin:24px 0; }
 .project-finding { padding:24px; background:#fff; border:1px solid var(--line); }
 .project-finding strong { display:block; font-size:32px; font-weight:500; color:var(--accent); margin-bottom:10px; }
