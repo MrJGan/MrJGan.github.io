@@ -14,7 +14,6 @@ description: "An interactive research project by Jing Gan on population density 
   <div class="project-links">
     {% if site.data.urban_lab.app_url != "" and site.data.urban_lab.app_url %}<a href="{{ site.data.urban_lab.app_url | escape }}" target="_blank" rel="noopener noreferrer">Open interactive explorer ↗</a>{% endif %}
     <a href="#findings">Explore the findings ↓</a>
-    {% if site.data.urban_lab.code_url != "" and site.data.urban_lab.code_url %}<a href="{{ site.data.urban_lab.code_url | escape }}" target="_blank" rel="noopener noreferrer">Code and reproducibility ↗</a>{% endif %}
   </div>
 </header>
 <section class="project-section" id="findings" aria-labelledby="findings-title">
@@ -45,10 +44,6 @@ description: "An interactive research project by Jing Gan on population density 
   <p>The baseline population sample contains 742 tracts within 20 miles of City Hall; 731 enter positive-density log regressions. Distances are straight-line distances. Regressions are descriptive and do not incorporate ACS sampling uncertainty or adjust inference for spatial dependence. Population and employment refer to different periods.</p>
 </section>
 <section class="project-section" aria-labelledby="materials-title">
-  <h2 id="materials-title">Research materials</h2>
-  <div class="project-links">
-    <a href="{{ '/files/boston/POPULATION_AND_CENTERS.md' | relative_url }}" download>Population and center-selection brief ↓</a>
-    <a href="{{ '/files/boston/EMPLOYMENT_AREAS.md' | relative_url }}" download>Employment-area and industry brief ↓</a>
-  </div>
-  <p>Original inputs: <a href="https://www.census.gov/programs-surveys/acs">U.S. Census ACS</a>, <a href="https://lehd.ces.census.gov/data/">LODES</a>, and <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html">TIGER/Line</a>. The analysis and interpretation are my own. PLAN: Downtown is used only as planning context in the research briefs.</p>
+  <h2 id="materials-title">Data sources</h2>
+  <p>Original inputs: <a href="https://www.census.gov/programs-surveys/acs">U.S. Census ACS</a>, <a href="https://lehd.ces.census.gov/data/">LODES</a>, and <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html">TIGER/Line</a>. The analysis and interpretation are my own. <a href="https://www.bostonplans.org/planning-zoning/planning-initiatives/plan-downtown">PLAN: Downtown</a> provides external planning context.</p>
 </section>
