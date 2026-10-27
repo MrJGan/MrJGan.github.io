@@ -1,7 +1,8 @@
 /* Additive styles for Jing Gan's existing editorial portfolio. */
-.projects-section { border-top:1px solid var(--line); margin-top:48px; padding:40px 0 28px; }
-.projects-section h2 { font-family:var(--serif); font-weight:400; font-size:clamp(34px,4vw,52px); margin:18px 0 24px; }
-.project-feature { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.12fr); gap:42px; align-items:center; padding:28px; border:1px solid var(--line); background:#fff; }
+.projects-section { min-width:0; background:#edf0ea; border:1px solid #d8dfd5; }
+.projects-section h2 { font-family:var(--serif); font-weight:400; font-size:clamp(34px,3.4vw,47px); line-height:1.08; letter-spacing:.005em; margin:22px 0 24px; }
+.project-feature { display:grid; grid-template-columns:minmax(0,1fr); gap:24px; align-items:start; }
+.project-feature > a { display:block; min-width:0; border:1px solid var(--line); background:#fff; border-radius:4px; overflow:hidden; }
 .project-feature h3 { font-size:clamp(23px,2.5vw,32px); line-height:1.2; letter-spacing:-.03em; margin:12px 0 16px; }
 .project-feature p { font-size:15px; line-height:1.75; color:var(--muted); }
 .project-meta { font-size:11px !important; letter-spacing:.04em; }
@@ -37,8 +38,7 @@
 .project-section a { color:var(--accent); text-decoration:underline; text-underline-offset:3px; }
 .project-section .project-links a { text-decoration:none; }
 @media(max-width:760px) {
-  .project-feature { grid-template-columns:1fr; gap:20px; padding:22px; }
+  .project-feature { gap:20px; }
   .project-findings { grid-template-columns:1fr; }
-  .projects-section { margin-top:30px; }
 }
 @media(prefers-reduced-motion:reduce) { html {scroll-behavior:auto;} }

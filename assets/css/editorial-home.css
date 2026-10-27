@@ -180,7 +180,8 @@ summary:focus-visible {
 }
 
 .intro h1 em,
-.side-panels h2 em {
+.side-panels h2 em,
+.projects-section h2 em {
   font-weight: 400;
   color: var(--accent);
 }
@@ -261,7 +262,8 @@ summary:focus-visible {
 
 .research-panel,
 .expertise-panel,
-.teaching-panel {
+.teaching-panel,
+.projects-section {
   border-radius: 6px;
   padding: clamp(23px, 3vw, 38px);
 }
@@ -514,10 +516,12 @@ summary:focus-visible {
    08. SIDE PANELS
    --------------------------------------------------------- */
 
+.primary-panels,
 .side-panels {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  min-width: 0;
 }
 
 
@@ -834,7 +838,8 @@ summary:focus-visible {
 
   .research-panel,
   .expertise-panel,
-  .teaching-panel {
+  .teaching-panel,
+  .projects-section {
     padding: 25px;
   }
 
