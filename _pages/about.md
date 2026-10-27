@@ -6,6 +6,7 @@ permalink: /
   <header class="site-header">
     <a class="wordmark" href="/" aria-label="Jing Gan home">JING GAN<span class="mark-dot">.</span></a>
     <nav aria-label="Main navigation">
+      <a href="/#projects">Projects</a>
       <a href="/teaching/">Teaching</a>
       <a href="/cv/">CV</a>
     </nav>
@@ -85,6 +86,25 @@ permalink: /
   <span>Substitute Instructor · Smith College</span>
 </p><div class="teaching-bottom"><span>Vijay Bhagavan Teaching Assistant of Distinction Award · 2022</span></div></a>
       </div>
+    </section>
+    <section class="projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="panel-top"><span class="section-index">04 / DATA PROJECTS</span><span class="panel-marker">INTERACTIVE RESEARCH</span></div>
+      <h2 id="projects-title">Data &amp; computational projects</h2>
+      <article class="project-feature">
+        <div>
+          <span class="tiny-label">URBAN SPATIAL ANALYTICS LAB</span>
+          <h3>Boston: population density<br>and employment geography</h3>
+          <p>How much does the choice of city center matter? An interactive study of population density gradients, employment cores, and the role of spatial scale.</p>
+          <p class="project-meta">PYTHON · CENSUS ACS · LODES · SPATIAL ANALYSIS</p>
+          <div class="project-links">
+            <a href="{{ '/projects/boston/' | relative_url }}">Read the project <span aria-hidden="true">→</span></a>
+            {% if site.data.urban_lab.app_url != "" and site.data.urban_lab.app_url %}<a href="{{ site.data.urban_lab.app_url | escape }}" target="_blank" rel="noopener noreferrer">Open interactive explorer <span aria-hidden="true">↗</span></a>{% endif %}
+          </div>
+        </div>
+        <a href="{{ '/projects/boston/' | relative_url }}" aria-label="Read the Boston urban spatial analytics project">
+          <img class="project-figure" src="{{ '/assets/projects/boston/density-radius.svg' | relative_url }}" alt="Fitted population density decline becomes smaller as the study radius grows; the three center definitions give similar results." width="960" height="480" loading="lazy">
+        </a>
+      </article>
     </section>
   </main>
   <footer class="site-footer"><span>© {{ 'now' | date: '%Y' }} JING GAN</span><div><a href="mailto:jinggan@umass.edu">Email ↗</a><a href="/cv/">Curriculum Vitae ↗</a></div></footer>

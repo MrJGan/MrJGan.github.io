@@ -1,0 +1,54 @@
+---
+layout: urban-project
+permalink: /projects/boston/
+title: "Boston: Population Density and Employment Geography"
+description: "An interactive research project by Jing Gan on population density gradients, employment centers, and the sensitivity of spatial boundaries in Boston."
+---
+<a class="project-back" href="{{ '/#projects' | relative_url }}">← Back to projects</a>
+<header class="project-hero">
+  <span class="tiny-label">URBAN SPATIAL ANALYTICS LAB</span>
+  <h1>Boston: population density<br>and employment geography</h1>
+  <p class="project-byline">By Jing Gan</p>
+  <p class="project-data">Population: ACS 2020–2024 (5-year estimates)<br>Employment: LODES 2023 (primary jobs)</p>
+  <p class="project-deck">Does the choice of city center change how we understand population density? This project makes the effects of center definitions, study boundaries, and spatial scale visible.</p>
+  <div class="project-links">
+    {% if site.data.urban_lab.app_url != "" and site.data.urban_lab.app_url %}<a href="{{ site.data.urban_lab.app_url | escape }}" target="_blank" rel="noopener noreferrer">Open interactive explorer ↗</a>{% endif %}
+    <a href="#findings">Explore the findings ↓</a>
+    {% if site.data.urban_lab.code_url != "" and site.data.urban_lab.code_url %}<a href="{{ site.data.urban_lab.code_url | escape }}" target="_blank" rel="noopener noreferrer">Code and reproducibility ↗</a>{% endif %}
+  </div>
+</header>
+<section class="project-section" id="findings" aria-labelledby="findings-title">
+  <h2 id="findings-title">Center choice matters less than study extent</h2>
+  <p>In the 20-mile sample, three reference centers yield similar population density gradients. Enlarging the study area from 10 to 20 miles produces a more noticeable change: the fitted decline becomes less steep.</p>
+  <div class="project-findings">
+    <div class="project-finding"><strong>14.3–14.6%</strong><p>Fitted decline in population density per additional mile across City Hall, the employment-weighted centroid, and the strongest employment peak in the 20-mile sample.</p></div>
+    <div class="project-finding"><strong>19.4% → 14.6%</strong><p>Fitted decline per mile using City Hall, when the sample radius expands from 10 to 20 miles.</p></div>
+  </div>
+  <figure>
+    <img class="project-figure" src="{{ '/assets/projects/boston/density-radius.svg' | relative_url }}" alt="Across 10-, 15-, and 20-mile study radii, the fitted decline becomes smaller; the three reference centers remain close." width="960" height="480">
+    <figcaption>Each point is a separate regression of ln(population density) on distance, using tracts selected by centroid distance from City Hall. Reference-center locations are held fixed. The chart shows fitted rates of decline, not density levels or exact annular averages.</figcaption>
+  </figure>
+</section>
+<section class="project-section" aria-labelledby="employment-title">
+  <h2 id="employment-title">A stable reference point does not imply a unique boundary</h2>
+  <p>Employment data define a reference peak independently of the population regression. A second set of experiments holds cells at 250 meters and changes the smoothing bandwidth. The area common to three tested bandwidths contains 653,618 primary jobs across 28.375 km² of grid area, including water.</p>
+  <p>Professional services, health care, education, and finance all contribute to this employment cluster. Agreement across specifications provides sensitivity evidence; it does not establish statistical confidence or an official central business district. In this experiment, the intersection coincides with the smallest-bandwidth candidate.</p>
+</section>
+<section class="project-section" aria-labelledby="methods-title">
+  <h2 id="methods-title">Data and analytical approach</h2>
+  <ol>
+    <li>Combine ACS population estimates with TIGER tract land areas to calculate population density.</li>
+    <li>Aggregate LODES primary jobs to projected grids and use Gaussian smoothing to identify employment concentrations.</li>
+    <li>Compare City Hall, an employment-weighted centroid, and the strongest employment peak; examine alternative study radii, grids, bandwidths, and thresholds.</li>
+    <li>Use unsmoothed industry job counts to interpret the resulting employment areas.</li>
+  </ol>
+  <p>The baseline population sample contains 742 tracts within 20 miles of City Hall; 731 enter positive-density log regressions. Distances are straight-line distances. Regressions are descriptive and do not incorporate ACS sampling uncertainty or adjust inference for spatial dependence. Population and employment refer to different periods.</p>
+</section>
+<section class="project-section" aria-labelledby="materials-title">
+  <h2 id="materials-title">Research materials</h2>
+  <div class="project-links">
+    <a href="{{ '/files/boston/POPULATION_AND_CENTERS.md' | relative_url }}" download>Population and center-selection brief ↓</a>
+    <a href="{{ '/files/boston/EMPLOYMENT_AREAS.md' | relative_url }}" download>Employment-area and industry brief ↓</a>
+  </div>
+  <p>Original inputs: <a href="https://www.census.gov/programs-surveys/acs">U.S. Census ACS</a>, <a href="https://lehd.ces.census.gov/data/">LODES</a>, and <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html">TIGER/Line</a>. The analysis and interpretation are my own. PLAN: Downtown is used only as planning context in the research briefs.</p>
+</section>
